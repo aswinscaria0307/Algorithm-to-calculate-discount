@@ -1,0 +1,44 @@
+ALGORITHM:
+
+
+Step1:Start
+
+Step2:Accept the  total_bill_amount from the user
+
+Step3:Check the  total_bill_amount is greater than or equal to $500
+
+Step4:If the total_bill_amount is greater than $500 then do (total_billamount*10)/100 and store in discount and display discount
+
+Step5:If the total_bill_amount is not greater than $500 then display No discount
+
+Step5:Stop
+
+
+
+
+
+PSEUDOCODE:
+
+
+
+Begin
+
+GET total_bill_amount
+
+IF (total_bill_amount >= 500)
+
+	BEGIN
+
+	print "Discount is =" (total_bill_amount*10)/100
+	
+	END
+
+ELSE
+
+	BEGIN
+	
+	print "No Discount"
+	
+	END
+
+END
